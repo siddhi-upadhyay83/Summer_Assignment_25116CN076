@@ -9,7 +9,7 @@ int main(){
   sum=sum+ld;
   n=n/10;
   }
-  printf("%d",sum);
+  printf("sum=%d",sum);
   return 0;
 }
 
@@ -24,7 +24,7 @@ int main(){
     rev=rev*10+ld;
     n=n/10;
   }
-  printf("%d",rev);
+  printf("rev=%d",rev);
     return 0;
 }
 
@@ -39,7 +39,7 @@ int main(){
     prod=prod*ld;
     n=n/10;
   }
-  printf("%d",prod);
+  printf("prod=%d",prod);
   return 0;
 }
 
