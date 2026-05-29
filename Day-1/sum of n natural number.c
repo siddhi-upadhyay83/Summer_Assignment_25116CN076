@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
   int n,i,sum=0;
-  printf("enter the sum of n natural no.\n");
+  printf("enter the natural no.\n");
   scanf("%d",&n);
   for(i=1;i<=n;i++){
     sum=sum+i;
