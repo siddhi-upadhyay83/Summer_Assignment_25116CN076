@@ -1,11 +1,11 @@
 //13.generate fibonacci series
 #include<stdio.h>
 int main(){
-  int i,n,a=0,b=1,sum=a+b;
+ int i,n,a=0,b=1,sum=a+b;
   printf("enter the number of terms\n");
   scanf("%d",&n);
   printf("%d %d",a,b);
-  for(i=1;i<=n;i++){
+  for(i=1;i<=n-2;i++){
     printf(" %d",sum);
     a=b;
     b=sum;
@@ -14,6 +14,7 @@ int main(){
   }
   return 0;
 }
+ 
 
 //14.find nth term of fibonacci series//
 #include<stdio.h>
