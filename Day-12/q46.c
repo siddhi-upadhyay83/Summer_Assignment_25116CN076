@@ -1,5 +1,4 @@
 //wap for armstrong using function//
-// wap for palindrome using function //
 #include<stdio.h>
 int armstrongOfNum(int num){
         int sum=0,ld;
