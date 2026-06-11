@@ -1,5 +1,5 @@
+//wap to second largest elements//
 #include <stdio.h>
-
 int main() {
     int arr[50], n, i;
     int largest, second;
